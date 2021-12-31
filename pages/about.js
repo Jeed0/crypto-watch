@@ -7,7 +7,7 @@ export default function About() {
       <br/>
         <p>
             Ce site a été réalisé par Jeed0,  développeur Front junior grace au Mentoring FromScratch .
-            C'est un premier un site web avec NEXTjs, prenant en compte une API pour faire des pages dynamiques et deployé par Vercel.
+            C'est un premier un site web avec NEXTjs, prenant en compte une API pour faire des pages dynamiques et deployé par Vercel. IL se veut être un support de travail pour s'exercer.
         </p>
     </Layout>
   )
