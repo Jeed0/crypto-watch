@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import Link from "next/link";
 
 export default function Home({res}) {
-  console.log(res);
+  /*console.log(res);*/
   return (
     <Layout page="Crypto Watch - Accueil">
     <ul className="flex justify-around py-10">
