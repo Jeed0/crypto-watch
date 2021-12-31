@@ -15,7 +15,7 @@ export default function Currency({ res }) {
         <h2 className="text-2xl mb-6 uppercase tracking-wider">{res.name}</h2>
         <p>{res.description}</p>
         <p className="pt-5 text-blue-500">
-          <a target="_blank" href={res.reddit_url}>
+          <a target="_blank" href={res.reddit_url} rel="noreferrer">
             {res.reddit_url}
           </a>
         </p>

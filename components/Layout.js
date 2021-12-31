@@ -16,13 +16,13 @@ export default function Layout({ children, page }) {
 
                 <div className="inline-grid grid-cols-2 gap-x-10 p-4">
 
-                    <Link href="/">
+                    <Link href="/" passHref>
                         <button className="bg-blue-200 p-3 m-2 rounded-3xl  hover:shadow-md border-2 border-blue-300">
                             Accueil
                         </button>
                     </Link>
 
-                    <Link href="/about">
+                    <Link href="/about" passHref>
                         <button className="bg-blue-200 p-3 m-2 rounded-3xl  hover:shadow-md border-2 border-blue-300">
                             A propos
                         </button>
@@ -62,13 +62,12 @@ export default function Layout({ children, page }) {
                 </p>
             </footer>
 
-            
-            
             <style jsx>{`
                 p {
                     color: grey;
                 }
             `}</style>
+
 
         </div>
     );
